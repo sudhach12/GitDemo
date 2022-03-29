@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [NegitiveTestSuite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="PositiveTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="positiveTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTest">
+        <methods>
+          <include name="PositiveLoginTest"/>
+          <include name="starting"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTest -->
+    </classes>
+  </test> <!-- PositiveTest(failed) -->
+  <test thread-count="3" parallel="tests" name="NegitiveUsernameTest(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="Your username is invalid!"/>
+    <parameter name="username" value="tomsmit"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTest">
+        <methods>
+          <include name="starting"/>
+          <include name="teardown"/>
+          <include name="NegitiveLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTest -->
+    </classes>
+  </test> <!-- NegitiveUsernameTest(failed) -->
+  <test thread-count="3" parallel="tests" name="NegitivePasswordTest(failed)">
+    <parameter name="password" value="SuperSecretPassword"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="Your password is invalid!"/>
+    <parameter name="username" value="tomsmith"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTest">
+        <methods>
+          <include name="starting"/>
+          <include name="teardown"/>
+          <include name="NegitiveLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTest -->
+    </classes>
+  </test> <!-- NegitivePasswordTest(failed) -->
+</suite> <!-- Failed suite [NegitiveTestSuite1] -->

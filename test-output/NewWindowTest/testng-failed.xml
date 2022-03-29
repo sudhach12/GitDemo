@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewWindowTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NewWindowTest(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.Windows.WindowsTest">
+        <methods>
+          <include name="newWindowTest"/>
+          <include name="starting"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.Windows.WindowsTest -->
+    </classes>
+  </test> <!-- NewWindowTest(failed) -->
+</suite> <!-- Failed suite [NewWindowTest] -->

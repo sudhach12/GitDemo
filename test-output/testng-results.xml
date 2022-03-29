@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T17:17:08 IST" name="AlertTestSuiteTest" finished-at="2022-03-17T17:17:56 IST" duration-ms="48372">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T17:17:08 IST" name="AlertTest" finished-at="2022-03-17T17:17:56 IST" duration-ms="48372">
+      <class name="com.herokuapp.theinternet.Alertboxes.AlertsTest">
+        <test-method is-config="true" signature="starting(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:08 IST" name="starting" finished-at="2022-03-17T17:17:17 IST" duration-ms="8827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.Alertboxes.AlertsTest.jsAlertTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@12f49ca8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="jsAlertTest()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:17 IST" name="jsAlertTest" finished-at="2022-03-17T17:17:24 IST" duration-ms="7471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsAlertTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:24 IST" name="teardown" finished-at="2022-03-17T17:17:25 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="starting(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:25 IST" name="starting" finished-at="2022-03-17T17:17:27 IST" duration-ms="2235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.Alertboxes.AlertsTest.jsDismissTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@12f49ca8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="jsDismissTest()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:27 IST" name="jsDismissTest" finished-at="2022-03-17T17:17:38 IST" duration-ms="10403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsDismissTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:38 IST" name="teardown" finished-at="2022-03-17T17:17:39 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="starting(java.lang.reflect.Method,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:39 IST" name="starting" finished-at="2022-03-17T17:17:41 IST" duration-ms="2060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.Alertboxes.AlertsTest.jsPromptTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@12f49ca8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="jsPromptTest()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:41 IST" name="jsPromptTest" finished-at="2022-03-17T17:17:55 IST" duration-ms="14140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsPromptTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.herokuapp.theinternet.Alertboxes.AlertsTest@2b91004a]" started-at="2022-03-17T17:17:55 IST" name="teardown" finished-at="2022-03-17T17:17:56 IST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.theinternet.Alertboxes.AlertsTest -->
+    </test> <!-- AlertTest -->
+  </suite> <!-- AlertTestSuiteTest -->
+</testng-results>

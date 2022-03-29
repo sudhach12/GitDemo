@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="NegitiveTestSuite1" parallel="tests" thread-count="3"  verbose="1" >
+<test name="PositiveTest" >
+<parameter name="browser"  value="chrome"/>
+ <groups>
+    <run>
+      <include name="positiveTests"/>
+    </run>
+  </groups> 
+<classes>
+<class name="com.herokuapp.theinternet.LoginTest"/>
+
+<!--<methods>
+<include name="relativeXpathTest"/>
+</methods> -->
+ </classes>
+  </test>
+<test name="NegitiveUsernameTest">
+<parameter name="browser"  value="chrome"/>
+<parameter name="username"  value="tomsmith"/>
+<parameter name="password"  value="SuperSecretPassword!"/>
+<parameter name="expectedMessage"  value="Your username is invalid!"/>
+ <classes>
+
+<class  name="com.herokuapp.theinternet.LoginTest">
+<methods>
+<include name="NegitiveLoginTest"/>
+</methods>
+
+</class>
+ </classes>
+ </test>
+<test name="NegitivePasswordTest">
+<parameter name="browser"  value="chrome"/>
+<parameter name="username"  value="tomsmith"/>
+<parameter name="password"  value="SuperSecretPassword"/>
+<parameter name="expectedMessage"  value="Your password is invalid!"/>
+ <classes>
+
+<class  name="com.herokuapp.theinternet.LoginTest">
+<methods>
+<include name="NegitiveLoginTest"/>
+</methods>
+</class>
+ </classes>
+ </test>
+</suite>

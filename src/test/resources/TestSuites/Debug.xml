@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="NegitiveTestSuite1" verbose="1" >
+<!--<test name="PositiveTest" >
+
+ 
+ <groups>
+    <run>
+      <include name="positiveTests"/>
+    </run>
+  </groups> 
+
+    <classes>
+       <class name="com.herokuapp.theinternet.LoginTest"/>
+    </classes>
+  </test> -->
+<test name="RelativeXpath" >
+<parameter name="browser"  value="chrome"/>
+ <classes>
+       <class name="com.herokuapp.theinternet.LoginTest">
+<methods>
+<include name="relativeXpathTest"/>
+</methods>
+</class>
+    </classes>
+  </test>
+
+
+
+</suite> 
