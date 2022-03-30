@@ -10,7 +10,9 @@ import com.herokuapp.theinternet.pages.WelComePageObject;
 public class AlertsTest extends TestUtilities {
 	@Test
 	public void jsAlertTest()
+	
 	{
+		System.out.println("checking");
 		log.info("Starting jsAlertsTest");
 		//open main page
 		WelComePageObject welcomepage= new WelComePageObject(driver,log);
